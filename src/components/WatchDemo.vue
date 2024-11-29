@@ -44,7 +44,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .watch-wrapper {
     height: 150px;
     width: 300px;

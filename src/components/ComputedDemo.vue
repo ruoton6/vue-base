@@ -52,7 +52,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .computed-wrapper {
     height: 300px;
     width: 300px;

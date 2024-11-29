@@ -25,7 +25,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .model-wrapper {
     height: 200px;
     width: 300px;

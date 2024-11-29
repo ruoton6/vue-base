@@ -23,7 +23,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .classMsg {
     height: 100px;
     width: 300px;

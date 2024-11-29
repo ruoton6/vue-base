@@ -23,7 +23,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .count-wrapper {
     height: 150px;
     width: 300px;
