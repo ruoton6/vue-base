@@ -5,6 +5,7 @@ import ClassDemo from "./components/ClassDemo.vue";
 import WatchDemo from "./components/WatchDemo.vue";
 import ModelDemo from "./components/ModelDemo.vue";
 import RefDemo from "./components/RefDemo.vue";
+import Wrap1 from "./components/Wrap1.vue";
 </script>
 
 <template>
@@ -14,4 +15,5 @@ import RefDemo from "./components/RefDemo.vue";
   <WatchDemo />
   <ModelDemo />
   <RefDemo />
+  <Wrap1 />
 </template>
