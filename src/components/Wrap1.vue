@@ -1,9 +1,13 @@
 <template>
     <div class="wrap1-wrapper">
         <div class="wrap1-title">
-            Wrap1组件
+            Wrap1
         </div>
-        <Wrap2 />
+        <!-- 使用子组件传递来的自定义事件来实现数据子传父 -->
+        <Wrap2 @searchData="wrap2SearchData" />
+        <div class="wrap1-search">
+            {{ search }}
+        </div>
     </div>
 </template>
 
@@ -12,8 +16,19 @@
 import Wrap2 from "./Wrap2.vue";
 
 export default {
+    data() {
+        return {
+            search: ""
+        }
+    },
     components: {
         "Wrap2": Wrap2
+    },
+    methods: {
+        // 参数就是子组件传递来的数据
+        wrap2SearchData(data) {
+            this.search = data;
+        }
     }
 }
 </script>
@@ -34,5 +49,13 @@ export default {
     text-align: center;
     line-height: 50px;
     font-size: 22px;
+}
+
+.wrap1-search {
+    padding: 6px;
+    width: 200px;
+    height: 20px;
+    margin: 10px auto;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, .5);
 }
 </style>
