@@ -6,6 +6,7 @@ import WatchDemo from "./components/WatchDemo.vue";
 import ModelDemo from "./components/ModelDemo.vue";
 import RefDemo from "./components/RefDemo.vue";
 import Wrap1 from "./components/Wrap1.vue";
+import ParentDemo from "./components/ParentDemo.vue";
 </script>
 
 <template>
@@ -16,4 +17,5 @@ import Wrap1 from "./components/Wrap1.vue";
   <ModelDemo />
   <RefDemo />
   <Wrap1 />
+  <ParentDemo />
 </template>
