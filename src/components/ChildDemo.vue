@@ -5,6 +5,7 @@
         </div>
         <div class="box2-content">
             {{ msg }}
+            {{ msgFn("props子传父数据") }}
         </div>
     </div>
 </template>
@@ -21,7 +22,8 @@ export default {
         msg: {
             type: String,
             default: "Parent没有传递数据"
-        }
+        },
+        msgFn: Function
     }
 }
 </script>
@@ -44,7 +46,7 @@ export default {
     font-size: 22px;
 }
 
-.box2-content{
+.box2-content {
     text-align: center;
     padding: 16px;
 }
