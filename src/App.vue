@@ -7,6 +7,7 @@ import ModelDemo from "./components/ModelDemo.vue";
 import RefDemo from "./components/RefDemo.vue";
 import Wrap1 from "./components/Wrap1.vue";
 import ParentDemo from "./components/ParentDemo.vue";
+import Slot1Demo from "./components/Slot1Demo.vue";
 </script>
 
 <template>
@@ -18,4 +19,5 @@ import ParentDemo from "./components/ParentDemo.vue";
   <RefDemo />
   <Wrap1 />
   <ParentDemo />
+  <Slot1Demo />
 </template>
