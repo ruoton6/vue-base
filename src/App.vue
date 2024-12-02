@@ -8,6 +8,7 @@ import RefDemo from "./components/RefDemo.vue";
 import Wrap1 from "./components/Wrap1.vue";
 import ParentDemo from "./components/ParentDemo.vue";
 import Slot1Demo from "./components/Slot1Demo.vue";
+import LifeDemo from "./components/LifeDemo.vue";
 </script>
 
 <template>
@@ -20,4 +21,5 @@ import Slot1Demo from "./components/Slot1Demo.vue";
   <Wrap1 />
   <ParentDemo />
   <Slot1Demo />
+  <LifeDemo />
 </template>
