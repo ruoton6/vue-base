@@ -5,7 +5,10 @@
         </div>
         <div class="dynamic-main">
             <button @click="changeComponent">更改组件</button>
-            <component :is="component"></component>
+            <!-- 组件保持存活 -->
+            <keep-alive>
+                <component :is="component"></component>
+            </keep-alive>
         </div>
     </div>
 </template>
